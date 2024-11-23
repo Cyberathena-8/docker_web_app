@@ -38,8 +38,8 @@
 </template>
 
 <script>
-import FileSelector from "./components/FileSelector.vue";
-import ContainerManager from "./components/ContainerManager.vue";
+import FileSelector from "./components/ContainerManager.vue";
+import ContainerManager from "./components/FileSelector.vue";
 
 export default {
   components: { FileSelector, ContainerManager },
